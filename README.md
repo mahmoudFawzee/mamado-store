@@ -1,8 +1,21 @@
+Here is the updated and polished `README.md` file for your GitHub repository. I've integrated your portfolio link prominently so that both developers and potential clients can easily see your work.
+
+---
+
 # FANNI (فني) - Smart Shop & POS Management
 
 **The complete digital solution for mobile maintenance, retail stores, and financial tracking in the Egyptian market.**[cite: 1]
 
 FANNI is a high-performance, full-stack application built to bridge the gap between traditional shop management and modern financial tracking. It is specifically tailored for the needs of Egyptian craftsmen and technicians, offering deep integration for local services like maintenance logs and wallet management (e.g., Vodafone Cash).[cite: 1]
+
+---
+
+## 🔗 Connect With The Developer
+
+Interested in seeing more of my work or hiring me for a project?
+
+*   **🌐 Portfolio:** [**Visit My Portfolio & See My Work**](https://mahmoudfawzee.github.io/portfolio-web-backend-based/)
+*   **👨‍💻 About Me:** Full-Stack Developer specializing in high-performance Flutter and Node.js applications.[cite: 1]
 
 ---
 
@@ -32,23 +45,6 @@ This project is built using a strict **Clean Architecture** pattern to ensure lo
 ### Project Structure:
 *   `/fanni-backend`: RESTful API, JWT Authentication, and PDF generation logic.[cite: 1, 2]
 *   `/fanni-mobile`: Flutter mobile app organized into Data, Domain, and Presentation layers.[cite: 1]
-
-### Getting Started:
-
-#### 1. Backend Setup
-```bash
-cd fanni-backend
-npm install
-# Create a .env file with your MONGO_URI and JWT_SECRET
-npm run dev
-```
-
-#### 2. Mobile Setup
-```bash
-cd fanni-mobile
-flutter pub get
-flutter run
-```
 
 ### Core Logic Implementation:
 *   **Financial Integrity:** Real-time global balance updates using MongoDB `$inc` operators to ensure dashboard accuracy without expensive loops.[cite: 1, 2]
